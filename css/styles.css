@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #090b1a;
+	font-family: "Inter", sans-serif;
+}
+
+span {
+	color: #aa5cdb;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 10rem auto;
+	width: 65em;
+	height: 25rem;
+	background-color: #1b1938;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.image {
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(127, 0, 206, 0.35),
+			rgba(127, 0, 206, 0.35)
+		),
+		url(../img/desktop.jpg);
+	background-size: cover;
+}
+.main-heading {
+	color: #ffffff;
+
+	font-weight: 700;
+	padding: 4rem 7rem 1.5rem 4rem;
+}
+.text {
+	color: #ffffffbf;
+	font-weight: 400;
+	font-size: 0.8rem;
+	padding: 0 9.3rem 0rem 4rem;
+	line-height: 1.7;
+}
+.stats {
+	display: flex;
+	gap: 3rem;
+	padding: 4rem 7rem 2rem 4rem;
+}
+.numbers {
+	color: #ffffff;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.descriptions {
+	color: #ffffff99;
+	font-family: "Lexend Deca", sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7rem;
+	letter-spacing: 0.1rem;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.attribution a {
+	color: #3e52a3;
+}
